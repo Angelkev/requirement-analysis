@@ -11,3 +11,17 @@ The purpose of this repository is to:
 
 ---
 Stay tuned for detailed documentation, examples, and resources that will help in mastering requirement analysis.
+
+---
+
+## What is Requirement Analysis?
+**Requirement Analysis** is the process of identifying, documenting, and managing the needs and expectations of stakeholders for a software system. It serves as the foundation of software development, ensuring that the final product meets business objectives and user needs.
+
+### Importance in SDLC:
+1. **Clarity of Objectives:** It helps stakeholders and developers establish a shared understanding of what the software should achieve.  
+2. **Minimized Errors:** By capturing requirements early, misunderstandings and ambiguities are reduced, lowering the risk of costly changes later.  
+3. **Improved Planning:** Clear requirements allow for accurate project estimation in terms of time, resources, and cost.  
+4. **Better Quality:** A well-analyzed set of requirements ensures the developed software is aligned with user expectations, leading to higher satisfaction.  
+5. **Change Management:** Requirement analysis provides a structured way to handle evolving business needs throughout the software lifecycle.  
+
+In summary, requirement analysis is not just about gathering information but also about interpreting, validating, and documenting it in a way that guides the entire software development process.
