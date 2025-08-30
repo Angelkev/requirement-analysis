@@ -116,3 +116,25 @@ The diagram below illustrates the key actors and use cases in a booking manageme
 | Customer        | Receive Confirmation  | The system sends booking confirmation to the customer.                      |
 | Admin           | Manage Bookings       | The admin can view, update, or manage all customer bookings.                |
 | Payment Gateway | Process Payment       | Handles secure processing of payments for bookings.                         |
+
+---
+
+## Acceptance Criteria
+**Acceptance Criteria** are predefined conditions that a software product or feature must meet to be accepted by stakeholders or end users. They serve as a benchmark for validating that requirements have been implemented correctly and completely.  
+
+### Importance of Acceptance Criteria:
+- Provide clear expectations for developers, testers, and stakeholders.  
+- Help avoid ambiguity and misinterpretation of requirements.  
+- Form the basis for test cases and validation activities.  
+- Ensure that features deliver the intended value to users.  
+
+### Example: Checkout Feature in Booking Management System
+**Feature:** Checkout (Payment Processing and Confirmation)  
+
+**Acceptance Criteria:**
+1. The system shall display the total amount due before proceeding with payment.  
+2. The customer shall be able to choose a payment method (credit card, debit card, or PayPal).  
+3. The system shall process payments securely through the integrated payment gateway.  
+4. The system shall send a booking confirmation email and SMS to the customer after successful payment.  
+5. If payment fails, the system shall display an error message and allow the customer to retry.  
+6. The system shall log all payment transactions for auditing purposes.  
