@@ -90,3 +90,29 @@ Non-functional Requirements define the quality attributes, performance standards
 - The system shall support up to 10,000 concurrent users without performance degradation.  
 - The system shall comply with GDPR data protection regulations.  
 - The system shall provide multilingual support (English, Spanish, French).  
+
+---
+
+## Use Case Diagrams
+A **Use Case Diagram** is a visual representation used in requirement analysis to show how different actors (users or external systems) interact with the system. It helps in identifying system functionality, user roles, and interactions in a clear and simple way.  
+
+### Benefits of Use Case Diagrams:
+- Provide a high-level overview of system functionality.  
+- Help stakeholders and developers communicate effectively.  
+- Identify actors, their goals, and system boundaries.  
+- Serve as a foundation for writing detailed use cases and test cases.  
+
+### Example: Booking Management System
+The diagram below illustrates the key actors and use cases in a booking management system.  
+
+![Use Case Diagram for Booking System](alx-booking-uc.png)
+
+### Use Case Table
+| Actor           | Use Case              | Description                                                                 |
+|-----------------|-----------------------|-----------------------------------------------------------------------------|
+| Customer        | Search Availability   | The customer can search for available dates and services.                   |
+| Customer        | Make Booking          | The customer can book a service for a chosen date and time.                 |
+| Customer        | Cancel Booking        | The customer can cancel an existing booking.                                |
+| Customer        | Receive Confirmation  | The system sends booking confirmation to the customer.                      |
+| Admin           | Manage Bookings       | The admin can view, update, or manage all customer bookings.                |
+| Payment Gateway | Process Payment       | Handles secure processing of payments for bookings.                         |
